@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1644251379 source:d:\temp\geometry\c++\geometry\geometry\main.cpp
+	<iostream>
+	"Point.h"
+	"Circle.h"
+	"Ellipse.h"
+	"RegularHeptagon.h"
+
+1644069691 source:d:\temp\geometry\c++\geometry\geometry\point.cpp
+	"Point.h"
+	<math.h>
+
+1644242316 d:\temp\geometry\c++\geometry\geometry\point.h
+
+1644179767 source:d:\temp\geometry\c++\geometry\geometry\circle.cpp
+	"Circle.h"
+	<math.h>
+
+1644179547 d:\temp\geometry\c++\geometry\geometry\circle.h
+	"Point.h"
+
+1644248862 source:d:\temp\geometry\c++\geometry\geometry\regularheptagon.cpp
+	"RegularHeptagon.h"
+	<math.h>
+
+1644248561 d:\temp\geometry\c++\geometry\geometry\regularheptagon.h
+	"Point.h"
+
+1644244617 source:d:\temp\geometry\c++\geometry\geometry\ellipse.cpp
+	"Ellipse.h"
+	<math.h>
+
+1644244204 d:\temp\geometry\c++\geometry\geometry\ellipse.h
+	<string>
+	"Point.h"
+
