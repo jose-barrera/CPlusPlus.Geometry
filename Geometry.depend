@@ -34,3 +34,41 @@
 	<string>
 	"Point.h"
 
+1644414330 source:d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\ellipse.cpp
+	"Ellipse.h"
+	<math.h>
+	<stdexcept>
+
+1644244204 d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\ellipse.h
+	<string>
+	"Point.h"
+
+1644242316 d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\point.h
+
+1644414218 source:d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\main.cpp
+	<iostream>
+	"Point.h"
+	"Circle.h"
+	"Ellipse.h"
+	"RegularHeptagon.h"
+
+1644179547 d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\circle.h
+	"Point.h"
+
+1644248561 d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\regularheptagon.h
+	"Point.h"
+
+1644069691 source:d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\point.cpp
+	"Point.h"
+	<math.h>
+
+1644414392 source:d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\regularheptagon.cpp
+	"RegularHeptagon.h"
+	<math.h>
+	<stdexcept>
+
+1644413890 source:d:\+ dropbox\dropbox\5. profesional\code samples github\c++\+ oop\geometry\circle.cpp
+	"Circle.h"
+	<math.h>
+	<stdexcept>
+

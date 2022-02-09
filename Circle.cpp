@@ -2,6 +2,9 @@
 
 #include "Circle.h"
 #include <math.h>
+#include <stdexcept>
+
+using namespace std;
 
 //{ PROPERTIES
 
@@ -64,7 +67,7 @@ Circle::Circle(Point center, double radius)
     }
     else
     {
-        throw "ERR: Radius cannot be zero or negative.";
+        throw runtime_error("ERR: Radius cannot be zero or negative.");
     }
 }
 
@@ -105,7 +108,7 @@ void Circle::resize(double radius)
     }
     else
     {
-        throw "ERR: Radius cannot be zero or negative.";
+        throw runtime_error("ERR: Radius cannot be zero or negative.");
     }
 }
 

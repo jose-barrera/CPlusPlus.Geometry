@@ -2,6 +2,9 @@
 
 #include "Ellipse.h"
 #include <math.h>
+#include <stdexcept>
+
+using namespace std;
 
 //{ PROPERTIES
 
@@ -139,17 +142,17 @@ Ellipse::Ellipse(Point center, double semiMajorAxis, double semiMinorAxis,
             }
             else
             {
-                throw "ERR: Orientation is invalid.";
+                throw runtime_error("ERR: Orientation is invalid.");
             }
         }
         else
         {
-            throw "ERR: Semi-major axis cannot be equal or smaller than semi-minor axis.";
+            throw runtime_error("ERR: Semi-major axis cannot be equal or smaller than semi-minor axis.");
         }
     }
     else
     {
-        throw "ERR: Semi-axes cannot be zero or negative.";
+        throw runtime_error("ERR: Semi-axes cannot be zero or negative.");
     }
 }
 
@@ -260,7 +263,7 @@ void Ellipse::resize(double factor)
     }
     else
     {
-        throw "ERR: Factor cannot be zero or negative.";
+        throw runtime_error("ERR: Factor cannot be zero or negative.");
     }
 }
 

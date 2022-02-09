@@ -2,6 +2,9 @@
 
 #include "RegularHeptagon.h"
 #include <math.h>
+#include <stdexcept>
+
+using namespace std;
 
 //{ PROPERTIES
 
@@ -91,7 +94,7 @@ RegularHeptagon::RegularHeptagon(Point center, Point vertex)
     }
     else
     {
-        throw "ERR: Center and vertex cannot be the same point.";
+        throw runtime_error("ERR: Center and vertex cannot be the same point.");
     }
 }
 
@@ -165,7 +168,7 @@ void RegularHeptagon::resize(double radius) {
     }
     else
     {
-        throw "ERR: Radius cannot be zero or negative.";
+        throw runtime_error("ERR: Radius cannot be zero or negative.");
     }
 }
 

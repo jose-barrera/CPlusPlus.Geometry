@@ -13,9 +13,9 @@ void testingClassRegularHeptagon();
 
 int main()
 {
-    //testingClassPoint();
-    //testingClassCircle();
-    //testingClassEllipse();
+    testingClassPoint();
+    testingClassCircle();
+    testingClassEllipse();
     testingClassRegularHeptagon();
 
     cout << "ALL DONE!" << endl;
